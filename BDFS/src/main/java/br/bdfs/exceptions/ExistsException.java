@@ -1,0 +1,13 @@
+package br.bdfs.exceptions;
+
+/**
+ *
+ * @author ltosc
+ */
+public class ExistsException extends DfsException
+{    
+    public ExistsException(String msg) 
+    {
+        super(msg);
+    }
+}
